@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    background: #333;
+}
+
+#tittle {
+    position: absolute;
+    width: 40%;
+    height: 7%;
+    top: 0;
+    left: 30%;
+    color: white;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    /*竖直方向居中*/
+    justify-content: center;
+    /*水平方向居中*/
+    margin-bottom: 0;
+}
+
+.title-center {
+    color: white;
+    font-size: 36px;
+    background-color: #333;
+}
+
+.num {
+    width: 25%;
+    float: left;
+    display: flex;
+    align-items: center;
+    /*竖直方向居中*/
+    justify-content: center;
+    /*水平方向居中*/
+    font-size: 14px;
+    color: gold;
+}
+
+.txt {
+    width: 25%;
+    float: left;
+    font-family: '幼圆';
+    display: flex;
+    align-items: center;
+    /*竖直方向居中*/
+    justify-content: center;
+    /*水平方向居中*/
+    margin-bottom: 0;
+}
+
+.txt h2 {
+    margin: 0;
+}
+
+.button {
+    font-family: "楷体_GB2312";
+    font-size: 25px;
+    color: white;
+    background-color: #333333;
+    margin: 0;
+}
+
+#time {
+    position: absolute;
+    height: 7%;
+    top: 5%;
+    right: 2%;
+    color: white;
+}
+
+#c1 {
+    position: absolute;
+    width: 40%;
+    height: 16%;
+    top: 7%;
+    left: 30%;
+    color: white;
+    margin-top: 0;
+    padding: 0;
+}
+
+#c2 {
+    position: absolute;
+    width: 40%;
+    height: 77%;
+    top: 23%;
+    left: 30%;
+    color: #888888;
+    display: block;
+    margin: 0;
+    align-items: flex-start;
+    padding: 0;
+    /*竖直方向居中*/
+}
+
+.c2ChinaMap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.c2WorldMap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#l1 {
+    position: absolute;
+    width: 30%;
+    height: 45%;
+    top: 10%;
+    left: 0;
+    color: #007FBE;
+}
+
+#l2 {
+    position: absolute;
+    width: 30%;
+    height: 45%;
+    top: 55%;
+    left: 0;
+    color: #0C2C45;
+}
+
+#r1 {
+    position: absolute;
+    width: 30%;
+    height: 45%;
+    top: 10%;
+    left: 70%;
+    color: #00FFFF;
+}
+
+#r2 {
+    position: absolute;
+    width: 30%;
+    height: 45%;
+    top: 55%;
+    left: 70%;
+    color: #42B983;
+}
